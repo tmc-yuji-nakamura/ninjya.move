@@ -1,0 +1,15 @@
+h1 {
+  color: rgb(255, 0, 221);
+}
+
+p.sideNote {
+  font-style: italic;
+}
+
+#authorBio {
+  color: blue;
+}
+
+.sideNote {
+  font-style: italic;
+}
