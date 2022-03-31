@@ -1,15 +1,36 @@
 h1 {
-  color: rgb(255, 0, 221);
+  color: rgb(10, 10, 10);
 }
 
-p.sideNote {
-  font-style: italic;
+.backGround{
+  background-image:url(./img/bg_takeyabu_layer2.jpg);
+  width:850px;
+  height: 450px;
+  zoom: 2.2;
+  position: relative;
+  color: #ffffff;
+  background-color: #f5f6f7;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  cursor: pointer;
 }
 
-#authorBio {
-  color: blue;
+.ninjya{
+  src: url(./img/ninja_hashiru.png);
+  width:80px ;
+  height:80px;
+  position:absolute;
+  right: 50px;
+  bottom: 15px;
 }
 
-.sideNote {
-  font-style: italic;
+.btn{
+  width:120px ;
+  height:80px;
+  font-size: 15pt;
+  font-weight: bold;
+  font-style: oblique;
+  background-color: green;
+  color: white;
 }
