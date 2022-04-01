@@ -13,7 +13,7 @@ function shadowAvoter() {
     for(let i = initialize.length -1; i >= 0; i-- ){
       initialize[i].remove()
     }
-    const addcount = randomNum(30,2)
+    const addcount = randomNum(20,2)
     // console.log("addcount", addcount)
     for(let i = 0; i <= addcount; i++){
         // console.log("i" , i)
@@ -22,8 +22,8 @@ function shadowAvoter() {
         const image =  document.createElement("img")
         image.setAttribute("src", target);
         image.className ="ninjya"
-        image.style.right = randomNum(750,50) + "px";
-        image.style.bottom = randomNum(350,15) + "px";
+        image.style.right = randomNum(650,50) + "px";
+        image.style.bottom = randomNum(300,15) + "px";
         addimg[0].appendChild(image);
     }
 }
