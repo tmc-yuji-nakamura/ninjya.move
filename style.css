@@ -1,6 +1,6 @@
 h1 {
   color: rgb(10, 10, 10);
-  font-size: 100pt;
+  font-size: 60pt;
   font-family:"メイリオ","Meiryo",sans-serif;
   text-align: center;
   margin-left: auto;
@@ -31,10 +31,10 @@ div{
 
 h2{
   color: rgb(10, 10, 10);
-  font-size: 30pt;
+  font-size: 20pt;
   font-family:"メイリオ","Meiryo",sans-serif;
   text-align: left;
-  margin-left: 40%;
+  margin-left: 30%;
   margin-right: auto;
 }
 
