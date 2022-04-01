@@ -32,3 +32,7 @@ function shadowAvoter() {
 //関数addImageNumで忍者表示数決定（乱数）
 //関数shadowAvoter起動
 //表示数分の忍者を繰り返しランダム位置に配置
+
+const target = document.getElementsByClassName("btn") ;
+// console.log(target)
+target[0].addEventListener("click", shadowAvoter);

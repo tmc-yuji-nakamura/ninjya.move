@@ -1,19 +1,57 @@
 h1 {
   color: rgb(10, 10, 10);
+  font-size: 100pt;
+  font-family:"メイリオ","Meiryo",sans-serif;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* #bgTitle{
+  background-image:url(./img/makimono_yoko.png);
+  background-position: center center;  
+  width:600px;
+  height: 150px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+body{
+  text-align: center;
+  background-color:#F3FFD8
+}
+
+div{
+  margin: auto;
+}
+
+h2{
+  color: rgb(10, 10, 10);
+  font-size: 30pt;
+  font-family:"メイリオ","Meiryo",sans-serif;
+  text-align: left;
+  margin-left: 40%;
+  margin-right: auto;
 }
 
 .backGround{
   background-image:url(./img/bg_takeyabu_layer2.jpg);
+  background-position: center center;  
   width:850px;
   height: 450px;
-  zoom: 2.2;
+  zoom: 2;
   position: relative;
   color: #ffffff;
   background-color: #f5f6f7;
   display: flex;
   justify-content: center;
   align-items: stretch;
-  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .ninjya{
@@ -26,11 +64,29 @@ h1 {
 }
 
 .btn{
-  width:120px ;
-  height:80px;
-  font-size: 15pt;
+  width:180px ;
+  height:100px;
+  padding: 0.5px;
+  font-size: 20pt;
   font-weight: bold;
   font-style: oblique;
-  background-color: green;
+  margin-top: 30px;
+  background-color:#00CC00;
+  box-shadow: 0 5px 0 #00cc00a6;
   color: white;
+  border-radius: 15px;
+  cursor: pointer;
+  text-decoration: none; /* 文字の下線を消す */
+}
+
+.btn:hover{
+  width:220px ;
+  height:150px;
+  font-size: 30pt;
+  font-weight: bold;
+  font-style: oblique;
+  margin-top: 30px;
+  background-color:#FF6928;
+  box-shadow: none;
+  color: #FFFFFF;
 }
