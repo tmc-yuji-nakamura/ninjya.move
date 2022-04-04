@@ -68,7 +68,7 @@ h2{
 }
 
 .transform{
-  width:80px ;
+  width:90px ;
   height:120px;
   position:absolute;
   right: 330px;
@@ -92,8 +92,8 @@ h2{
   font-weight: bold;
   font-style: oblique;
   margin-top: 20px;
-  background-color:#00CC00;
-  box-shadow: 0 5px #00cc00a6;
+  background-color:#00CC00; 
+  box-shadow: 0 5px #006400;
   color: white;
   border-radius: 15px;
   cursor: pointer;
@@ -102,7 +102,7 @@ h2{
 
 
 
-.btn:hover{
+/* .btn:hover{
   width:160px ;
   height:80px;
   font-size: 18pt;
@@ -112,7 +112,7 @@ h2{
   background-color:#FF6928;
   box-shadow: none;
   color: #FFFFFF;
-}
+} */
 
 .btn#clear{
   width:100px ;
@@ -131,7 +131,7 @@ h2{
   text-decoration: none; /* 文字の下線を消す */
 }
 
-.btn#clear:hover{
+/* .btn#clear:hover{
   width:100px ;
   height:40px;
   font-size: 12pt;
@@ -141,4 +141,5 @@ h2{
   background-color:#FF6928;
   box-shadow: none;
   color: #FFFFFF;
-}
+} */
+
